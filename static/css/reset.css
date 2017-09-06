@@ -1,0 +1,40 @@
+/*
+  * @description: 百度推广-询底价
+  * @authors:   yfl
+  * @update:    2016-5-2
+  * @version:   
+*/
+
+/* Reset */
+html,body,form,p,h1,h2,h3,h4,dl,ul,ol,li,dt,dd,select,figure,figcaption{margin:0;padding:0;font-size:16px;font-weight:400;}
+body,select,input,option,button,textarea{color:#333;font:12px/1.5 "Microsoft YaHei",Arial;-webkit-text-size-adjust:none;}
+ul,ol,li{list-style-type:none;}
+em,i,var{font-style:normal;}
+a{text-decoration:none;color:#333; }
+a img{border:0 none;}
+img{max-width:100%;vertical-align:top;}
+input:focus::-webkit-input-placeholder{color:rgba(0,0,0,0);}
+input::-webkit-input-placeholder{color:#999;}
+input[type="search"],input[type="text"],input[type="tel"],input[type="number"],input[type="date"],button,select,textarea,input[type="submit"]{-webkit-appearance: none;-webkit-border-image: none; border-image: none; -webkit-border-radius: 0; border-radius: 0; border:0 none; outline: none; box-sizing:border-box;}
+textarea:focus::-webkit-input-placeholder{color:rgba(0,0,0,0);}
+textarea::-webkit-input-placeholder{color:#999;}
+.clearfix:after{content:"";display:block;height:0;overflow:hidden;clear:both;visibility:hidden;}html{height:100%;-webkit-tap-highlight-color:transparent;}
+body{background: #f5f5f5;}
+html,body{height:100%;}
+body{overflow: hidden;}
+
+/* Global */
+@font-face {
+  font-family: 'enquiry';
+  src:url('//at.alicdn.com/t/font_7xot9gtb2smxi529.woff') format('woff'), 
+  url('//at.alicdn.com/t/font_7xot9gtb2smxi529.ttf') format('truetype');
+}
+
+#app{
+	position: relative;
+	height: 100%; 
+	overflow: auto;
+	-webkit-overflow-scrolling:touch;
+	z-index: 1;
+}
+.visible{display: block;}
